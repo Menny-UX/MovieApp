@@ -1,8 +1,4 @@
 # MovieApp
-====================
-** A react Movie App using themoviedb **
-
-### Functionality
 - Discover Movies with are divided in to 3 main secttions (top Movies, up Coming , now Playing )
 - Save and Remove Favourits 
 - View Details of selected Movie
