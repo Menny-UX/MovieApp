@@ -35,7 +35,7 @@ _______________
 * No UI-Library used (as a self challenge :raising_hand:)
 
 
-#### This is Only v1 :wave: ...
+#### v1.0 :wave: ...
 
 ##### Other enhancments might be 
   * infinit scrolling
@@ -43,7 +43,7 @@ _______________
   * Hero section
   * enhancement in some ui components
   
-###### Hope you like it....
+###### I welcome feedbacks and discussions ....
 
 
      
