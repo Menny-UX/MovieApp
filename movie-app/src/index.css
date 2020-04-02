@@ -1,0 +1,32 @@
+html{
+  font-size: 62.5;
+}
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:link,a:visited{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#CECECE;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #CECECE;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

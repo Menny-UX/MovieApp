@@ -1,0 +1,59 @@
+.sidemenu-container{
+  background-color: #000000;
+  opacity: 70%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 2px;
+  width: 12rem;
+  color: white;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  backdrop-filter: blur(5px) grayscale(30%);
+}
+
+.sidemenu-menu{
+  display: flex;
+  margin-top: 5rem;
+  flex-direction: column;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+.sidemenu-logo{
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.sidemenu-section{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.sidemenu-section__title{
+    margin: 0 auto;
+    letter-spacing: 0.9rem;
+    font-weight: 800;
+    padding: 1.2rem 0;
+    color: white;
+}
+.sidemenu-section__subsection a{
+    display: flex;
+    align-items: center;
+    
+}
+.sidemenu-section__subsection{
+    padding: 0.2rem 0.5rem;
+}
+.sidemenu-section__subsection p{
+    padding: 0.6rem;
+}
+.favorites-icon{
+    stroke-width: 3;
+    color: red;
+    margin: 0 auto;
+}

@@ -1,0 +1,107 @@
+.search-container{
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+.search-input{
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    background-position: 100% center;
+    transition: all 250ms ease-in-out;
+    background-color: transparent;
+    margin: 0 auto;
+    width: 85%;
+
+}
+.search-header{
+    border-bottom: 1px solid rgb(114, 114, 114);
+    width: 95%;
+    height: fit-content;
+    transition: all 250ms ease-in-out;
+    display: flex;
+    color: rgb(114, 114, 114);
+}
+.search-header:hover{
+    border-bottom: 1px solid white;
+    color: white;
+}
+.search-input:hover,
+.search-input:focus{
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    background-position: 100% center;
+    width: 100%;
+    background-color: transparent;
+}
+.search-input::placeholder {
+    color: transparent;
+}
+.search-input:hover::placeholder,
+.search-input:focus::placeholder {
+    color: rgb(114, 114, 114);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+/* .search-dropdown{
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    background-color: transparent;
+    background-position: 100% center;
+    transition: all 250ms ease-in-out;
+    position: absolute;
+    width: 100%;
+} */
+.search-dropdown{
+    padding: 12px 0;
+    margin: -44px -5rem;
+    outline: 0;
+    border: 1px solid transparent;
+    color: transparent;
+    background-color: transparent;
+    background-position: 100% center;
+    transition: all 250ms ease-in-out;
+    position: absolute;
+    width: 100%;
+}
+.search-dropdown__icon{
+    right: 9rem;
+    top: -2.5rem;
+    position: absolute;
+}
+.search-dropdown__container{
+    background-color: transparent;
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+    position: relative;
+}
+.search-dropdown option{
+    padding: 12px 0;
+    height: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 1px solid transparent;
+    outline: 0;
+}
+.search-dropdown option:hover{
+    background-color: rgba(39, 39, 39, 0.6) !important;
+}
+.dropdown select {
+    border: 0 !important;  /*Removes border*/
+   -webkit-appearance: none;  /*Removes default chrome and safari style*/
+   -moz-appearance: none;  /*Removes default style Firefox*/
+   padding: 12px 0;
+   height: 2rem;
+}
+.dropdown select option::selection,
+.dropdown select option:hover {
+    background-color: black;
+}
